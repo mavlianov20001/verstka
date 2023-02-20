@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header__left {
+  display: flex;
+  margin-right: 220px;
+  gap: 140px;
+}
+
+.header__right {
+  display: flex;
+  margin-left: 220px;
+  gap: 140px;
+}
+.wrapper {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.emblema {
+  /* padding-bottom: 150px; */
+}
+.line {
+  width: 11170px;
+  border: 1px solid black;
+}
+
+.img__main {
+  width: 770px;
+  height: 720px;
+}
+.main__img {
+  margin-right: auto;
+}
+
+.heder__p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+.main__wrapper {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.main__text__h4_1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #323232;
+  margin-right: 200px;
+}
+.main__text__h4_2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #323232;
+  margin-left: 50px;
+}
+.main__text__h1 {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #57463a;
+  margin-left: 50px;
+}
+.heder__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #323232;
+}
+.main__button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f6f6f6;
+  /*  */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  background: #a1b29f;
+  border: solid 2px #a1b29f;
+}
+.svg__wrapper {
+  margin-right: 320px;
+  margin-top: 500px;
+  gap: 50px;
+}
+.main__svg {
+  gap: 400px;
+}
